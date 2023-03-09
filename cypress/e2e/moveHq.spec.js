@@ -12,7 +12,7 @@ describe("Contact form fill out", () => {
     cy.get("[phone='numberOffice']").clear().type("41234569878");
     cy.get("[phone='numberMobile']").clear().type("1236457894");
     cy.get("[phone='numberHome']").clear().type("1235567894");
-    cy.get(".deparment").clear().type("Army");
+    cy.get(".department").clear().type("Army");
     cy.get(".email").clear().type("test@gmail.com");
     cy.get(".secondEmail").clear().type("test1@gmail.com");
     cy.get("input[text='name']").should("have.text", "RC Ackerman");
