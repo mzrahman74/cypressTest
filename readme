@@ -1,0 +1,10 @@
+Required -
+Basic JavaScript knowledge
+
+Install-
+For install cypress
+npm install cypress --save-dev
+
+Execution-
+npx cypress open
+Then exeucte right file from e2e
