@@ -6,7 +6,7 @@ describe("Contact form fill out", () => {
   });
   it("Complete the form", () => {
     cy.get(".number").clear().type("45698");
-    cy.get('[class="transferee').should("be.visible");
+    cy.get("[class='transferee']").should("be.visible");
     cy.get("[name='firstName']").clear().type("Mohit");
     cy.get("[name='lastName']").clear().type("Hassan");
     cy.get("[phone='numberOffice']").clear().type("41234569878");
